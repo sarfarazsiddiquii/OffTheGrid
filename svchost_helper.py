@@ -64,7 +64,7 @@ def _mouse_move():
     x1, y1, x2, y2 = _screen_bounds()
     tx = random.randint(x1, x2)
     ty = random.randint(y1, y2)
-    dur = random.uniform(0.30, 0.80)
+    dur = random.uniform(0.20, 1.00)
     pyautogui.moveTo(tx, ty, duration=dur, tween=pyautogui.easeInOutQuad)
 
 
