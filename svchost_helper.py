@@ -31,8 +31,8 @@ _state_lock = threading.Lock()
 # ---------------------------------------------------------------------------
 
 def _var(value: float) -> float:
-    """Apply ±20 % random variance to a base duration."""
-    return value * random.uniform(0.80, 1.20)
+    """Apply ±25 % random variance to a base duration."""
+    return value * random.uniform(0.75, 1.25)
 
 
 def _screen_bounds():
