@@ -75,7 +75,7 @@ def _scroll_burst():
     """
     for i in range(3):
         if i > 0:
-            gap = _var(random.uniform(4.0, 10.0))
+            gap = _var(random.uniform(3.0, 12.0))
             if not _sleep(gap):
                 return
         amount = random.randint(3, 8)
